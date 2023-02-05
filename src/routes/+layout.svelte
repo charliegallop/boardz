@@ -10,8 +10,7 @@
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar>
-			<svelte:fragment slot="lead">(lead)</svelte:fragment>
-			(center)
+			<svelte:fragment slot="lead">boardz</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<LightSwitch />
 			</svelte:fragment>
