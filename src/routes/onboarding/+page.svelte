@@ -16,9 +16,7 @@
 		<span>Select your username</span>
 		<input type="text" id="username" minlength="4" required />
 	</label>
-	<p class="my-4">
-		You can upload your own avatar or keep the assigned one!
-	</p>
+	<p class="my-4">You can upload your own avatar or keep the assigned one!</p>
 	<div class="flex justify-center">
 		<FileButton bind:files button="variant-filled-primary">Upload File</FileButton>
 	</div>

@@ -44,5 +44,13 @@
 	"dependencies": {
 		"@prisma/client": "^4.9.0"
 	},
-	"license": "MIT"
+	"license": "MIT",
+	"engines": {
+		"npm": ">= 7.0.0",
+		"yarn": "Please use npm instead.",
+		"pnpm": "Please use npm instead."
+	},
+	"bugs": {
+		"url": "https://github.com/charliegallop/boardz/issues"
+	}
 }

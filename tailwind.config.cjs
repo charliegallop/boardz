@@ -9,7 +9,8 @@ const config = {
 	theme: {
 		extend: {}
 	},
-	plugins: [require('@tailwindcss/forms'),
+	plugins: [
+		require('@tailwindcss/forms'),
 		...require('@skeletonlabs/skeleton/tailwind/skeleton.cjs')()
 	]
 };

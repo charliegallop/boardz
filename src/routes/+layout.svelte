@@ -2,16 +2,14 @@
 	import '@skeletonlabs/skeleton/themes/theme-rocket.css';
 	import '@skeletonlabs/skeleton/styles/all.css';
 	import '../app.postcss';
-	import { AppBar, AppShell, LightSwitch } from '@skeletonlabs/skeleton'
-
+	import { AppBar, AppShell, LightSwitch } from '@skeletonlabs/skeleton';
 </script>
-
 
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar class="p-2">
 			<svelte:fragment slot="lead">
-				<a class="hover:brightness-[150%]" href="/">bordz</a> 
+				<a class="hover:brightness-[150%]" href="/">bordz</a>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<LightSwitch />
@@ -25,9 +23,7 @@
 	<div class="p-4 flex flex-col items-center">
 		<slot />
 	</div>
-		<!-- ---- / ---- -->
+	<!-- ---- / ---- -->
 	<!-- <svelte:fragment slot="pageFooter">Page Footer</svelte:fragment> -->
 	<!-- <svelte:fragment slot="footer">Footer</svelte:fragment> -->
 </AppShell>
-
-
