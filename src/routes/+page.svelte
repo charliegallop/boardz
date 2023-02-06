@@ -1,12 +1,12 @@
-<script>
-	import i18next from "i18next";
+<script lang="ts">
+	import { LL } from '$lib/i18n/i18n-svelte';
 	import { BrandYoutube, BrandGithub } from 'tabler-icons-svelte';
+	import { i18n } from '$lib/i18n/i18n-util';
 </script>
 
 <div class="card p-4 flex flex-col items-center container max-w-lg my-auto">
-	<p>{ i18next.t('message') }</p> 
+	<p>{ $LL.message() }</p>
 	<p class="p-2 text-center">
-
 		OK. Who put my calculator in Jell-O? Good one. But uh, seriously, guys who did this? Seriously
 		guys, who did this? I need to know who put my calculator in Jell-O, or I'm gonna lose my
 		freaking mind! OK. Who put my calculator in Jell-O? Good one. But uh, seriously, guys who did
