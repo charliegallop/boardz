@@ -2,6 +2,7 @@
 	import '@skeletonlabs/skeleton/themes/theme-rocket.css';
 	import '@skeletonlabs/skeleton/styles/all.css';
 	import '../app.postcss';
+	import '../i18n'
 	import { AppBar, AppShell, LightSwitch } from '@skeletonlabs/skeleton';
 </script>
 
@@ -9,7 +10,7 @@
 	<svelte:fragment slot="header">
 		<AppBar class="p-2">
 			<svelte:fragment slot="lead">
-				<a class="hover:brightness-[150%]" href="/">bordz</a>
+				<a class="hover:brightness-[150%]" href="/">boardz</a>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<LightSwitch />
