@@ -10,6 +10,5 @@ export const load = (async (event) => {
     await loadLocaleAsync(locale);
     // Set it
     setLocale(locale);
-
     return event.data
 }) satisfies LayoutLoad

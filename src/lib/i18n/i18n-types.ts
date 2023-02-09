@@ -16,12 +16,28 @@ export type Translations = RootTranslation
 
 type RootTranslation = {
 	/**
+	 * B​o​a​r​d​z
+	 */
+	title: string
+	/**
+	 * Y​o​u​r​ ​p​e​r​s​o​n​a​l​ ​m​a​p​ ​t​o​ ​a​d​v​e​n​t​u​r​e
+	 */
+	tagline: string
+	/**
 	 * H​e​l​l​o​ ​W​o​r​l​d
 	 */
 	message: string
 }
 
 export type TranslationFunctions = {
+	/**
+	 * Boardz
+	 */
+	title: () => LocalizedString
+	/**
+	 * Your personal map to adventure
+	 */
+	tagline: () => LocalizedString
 	/**
 	 * Hello World
 	 */
