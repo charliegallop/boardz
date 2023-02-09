@@ -2,11 +2,9 @@
 
 ## Your personal map to adventure
 
-```apache
-| :warning: WARNING          |
+| ⚠️ WARNING          |
 |:---------------------------|
 | Name and scope is WIP      |
-```
 
 Unleash Your Inner Adventurer with Boardz - the ultimate web app for
 thrill-seekers. Create personalized maps of the best outdoor
