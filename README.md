@@ -14,8 +14,7 @@ adventure with your crew. Whether you're surfing the waves, scaling
 mountains, or simply immersing yourself in nature, Boardz makes it easy
 to create custom maps that showcase all your epic adventures. Pin your
 favorite social media posts, videos and locations to your map for easy
-access. Say goodbye to boring weekends and hello to non-stop thrills.
-Start mapping your adventures with Boardz now!
+access. Start mapping your adventures with Boardz now!
 
 ## Planning
 

@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { LL } from '$lib/i18n/i18n-svelte';
 	import { BrandYoutube, BrandGithub } from 'tabler-icons-svelte';
-	import { i18n } from '$lib/i18n/i18n-util';
 </script>
 
 <div class="card p-4 flex flex-col items-center container max-w-lg my-auto">
@@ -19,13 +18,13 @@
 			href="/onboarding"
 			class="btn variant-filled-primary btn-base min-w-min w-full inline-flex gap-2 cursor-pointer"
 		>
-			Sign up with YouTube <BrandYoutube size={36} strokeWidth={1} />
+			{ $LL.signUp() } YouTube <BrandYoutube size={36} strokeWidth={1} />
 		</a>
 		<a
 			href="/onboarding"
 			class="btn variant-filled-primary btn-base min-w-min w-full inline-flex gap-2 cursor-pointer"
 		>
-			Sign up with GitHub <BrandGithub size={36} strokeWidth={1} />
+			{ $LL.signUp() } GitHub <BrandGithub size={36} strokeWidth={1} />
 		</a>
 	</div>
 </div>

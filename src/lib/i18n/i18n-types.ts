@@ -20,13 +20,13 @@ type RootTranslation = {
 	 */
 	title: string
 	/**
-	 * Y​o​u​r​ ​p​e​r​s​o​n​a​l​ ​m​a​p​ ​t​o​ ​a​d​v​e​n​t​u​r​e
+	 * A​d​v​e​n​t​u​r​e​ ​A​w​a​i​t​s​ ​-​ ​P​l​a​n​,​ ​D​o​c​u​m​e​n​t​,​ ​a​n​d​ ​S​h​a​r​e​ ​Y​o​u​r​ ​T​h​r​i​l​l​s​.
 	 */
 	tagline: string
 	/**
-	 * H​e​l​l​o​ ​W​o​r​l​d
+	 * S​i​g​n​ ​u​p​ ​w​i​t​h
 	 */
-	message: string
+	signUp: string
 }
 
 export type TranslationFunctions = {
@@ -35,13 +35,13 @@ export type TranslationFunctions = {
 	 */
 	title: () => LocalizedString
 	/**
-	 * Your personal map to adventure
+	 * Adventure Awaits - Plan, Document, and Share Your Thrills.
 	 */
 	tagline: () => LocalizedString
 	/**
-	 * Hello World
+	 * Sign up with
 	 */
-	message: () => LocalizedString
+	signUp: () => LocalizedString
 }
 
 export type Formatters = {}
